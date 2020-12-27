@@ -58,35 +58,35 @@ function NavBar(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const menuItems = [
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement",
+      link: "/",
       name: "Home"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement#about",
+      link: "#about",
       name: "About"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement/services",
+      link: "/services",
       name: "Services"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement/blog",
+      link: "/blog",
       name: "Blog"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement/panel",
+      link: "/panel",
       name: "Panel"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement/rules",
+      link: "/rules",
       name: "Rules"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement/faq",
+      link: "/faq",
       name: "FAQ/HELP"
     },
     {
-      link: "https://rihanreactdev.github.io/deploy-settlement#contact",
+      link: "#contact",
       name: "Contact"
     }
   ];
@@ -99,21 +99,21 @@ function NavBar(props) {
         <img src={logo1} height="100px" alt="logo"/>
         <Hidden smDown implementation="css">
           <div className="center flex ttu tracked fw6">
-          <span><a className="link dim dark-gray mr3 tr pr2 w-100" href="https://rihanreactdev.github.io/deploy-settlement" title="Home">
+          <span><a className="link dim dark-gray mr3 tr pr2 w-100" href="/" title="Home">
                                 Home</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement#about"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="#about"
                    title="About">About</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr pr2 w-100" href="https://rihanreactdev.github.io/deploy-settlement/services"
+          <span><a className="link dim dark-gray dib mr3 tr pr2 w-100" href="/services"
                    title="Services">Services</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement/blog"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/blog"
                    title="Blog">Blog</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement/panel"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/panel"
                    title="Panel">Panel</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement/rules"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/rules"
                    title="Rules">Rules</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement/faq"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/faq"
                    title="FAQ">FAQ/HELP</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="https://rihanreactdev.github.io/deploy-settlement#contact"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="#contact"
                    title="Contact">Contact</a></span>
           <LoginUserMenu/>
         </div>

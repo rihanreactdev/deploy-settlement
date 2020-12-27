@@ -28,19 +28,19 @@ const AppLayout = () => {
                 <Loader />
                 <div className="page-wrapper">
                     <div className="page-body-wrapper">
-                      <BrowserRouter>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/" component={Main}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/userlogin" component={Login}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/neutrallogin" component={NeutralLogin}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/signup" component={Register}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/neutralsignup" component={NeutralRegister}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/forgotpassword" component={ForgotPassword}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/neutralforgotpassword" component={NeutralForgotPassword}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/panel" component={Panel}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/services" component={Services}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/rules" component={Rules}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/faq" component={Faq}/>
-                            <Route path="https://rihanreactdev.github.io/deploy-settlement/userdashboard/default" component={Default}/>
+                      <BrowserRouter basename="/deploy-settlement">
+                            <Route path="/" component={Main}/>
+                            <Route path="/userlogin" component={Login}/>
+                            <Route path="/neutrallogin" component={NeutralLogin}/>
+                            <Route path="/signup" component={Register}/>
+                            <Route path="/neutralsignup" component={NeutralRegister}/>
+                            <Route path="/forgotpassword" component={ForgotPassword}/>
+                            <Route path="/neutralforgotpassword" component={NeutralForgotPassword}/>
+                            <Route path="/panel" component={Panel}/>
+                            <Route path="/services" component={Services}/>
+                            <Route path="/rules" component={Rules}/>
+                            <Route path="/faq" component={Faq}/>
+                            <Route path="/userdashboard/default" component={Default}/>
                             {/*<AuthenticatedRoute*/}
                             {/*    Component= {Default}*/}
                             {/*    path = "/userdashboard/default"*/}
@@ -48,22 +48,22 @@ const AppLayout = () => {
                             {/* />*/}
                              <AuthenticatedRoute
                                 Component= {RegCase}
-                                path = "https://rihanreactdev.github.io/deploy-settlement/userdashboard/registercase"
+                                path = "/userdashboard/registercase"
                                 redirectPath= "/userlogin"
                              />
                              <AuthenticatedRoute
                                 Component= {SecureContract}
-                                path = "https://rihanreactdev.github.io/deploy-settlement/userdashboard/securecontract"
+                                path = "/userdashboard/securecontract"
                                 redirectPath= "/userlogin"
                              />
                              <AuthenticatedRoute
                                 Component= {ViewCaseDetail}
-                                path = "https://rihanreactdev.github.io/deploy-settlement/userdashboard/accesscasedetail"
+                                path = "/userdashboard/accesscasedetail"
                                 redirectPath= "/userlogin"
                              />
                              <AuthenticatedRoute
                                 Component= {Calendar}
-                                path = "https://rihanreactdev.github.io/deploy-settlement/userdashboard/timeline"
+                                path = "/userdashboard/timeline"
                                 redirectPath= "/userlogin"
                              />
                              {/*<AuthenticatedRoute*/}
