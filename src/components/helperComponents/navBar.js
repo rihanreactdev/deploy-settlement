@@ -96,7 +96,7 @@ function NavBar(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        <img src={logo1} height="100px" alt="logo"/>
+        <img src={logo1} height="190px" alt="logo"/>
         <Hidden smDown implementation="css">
           <div className="center flex ttu tracked fw6">
           <span><a className="link dim dark-gray mr3 tr pr2 w-100" href="/" title="Home">
