@@ -66,23 +66,23 @@ function NavBar(props) {
       name: "About"
     },
     {
-      link: "/services",
+      link: "services",
       name: "Services"
     },
     {
-      link: "/blog",
+      link: "blog",
       name: "Blog"
     },
     {
-      link: "/panel",
+      link: "panel",
       name: "Panel"
     },
     {
-      link: "/rules",
+      link: "rules",
       name: "Rules"
     },
     {
-      link: "/faq",
+      link: "faq",
       name: "FAQ/HELP"
     },
     {
@@ -103,15 +103,15 @@ function NavBar(props) {
                                 Home</a></span>
           <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="#about"
                    title="About">About</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr pr2 w-100" href="/services"
+          <span><a className="link dim dark-gray dib mr3 tr pr2 w-100" href="services"
                    title="Services">Services</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/blog"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="blog"
                    title="Blog">Blog</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/panel"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="panel"
                    title="Panel">Panel</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/rules"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="rules"
                    title="Rules">Rules</a></span>
-          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="/faq"
+          <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="faq"
                    title="FAQ">FAQ/HELP</a></span>
           <span><a className="link dim dark-gray dib mr3 tr w-100 pr2" href="#contact"
                    title="Contact">Contact</a></span>
