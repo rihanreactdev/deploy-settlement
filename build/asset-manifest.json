@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/deploy-settlement/static/css/main.fb6531de.chunk.css",
+    "main.js": "/deploy-settlement/static/js/main.31caa101.chunk.js",
+    "main.js.map": "/deploy-settlement/static/js/main.31caa101.chunk.js.map",
+    "runtime-main.js": "/deploy-settlement/static/js/runtime-main.012a9788.js",
+    "runtime-main.js.map": "/deploy-settlement/static/js/runtime-main.012a9788.js.map",
+    "static/css/2.ee0a0194.chunk.css": "/deploy-settlement/static/css/2.ee0a0194.chunk.css",
+    "static/js/2.6f64bbb4.chunk.js": "/deploy-settlement/static/js/2.6f64bbb4.chunk.js",
+    "static/js/2.6f64bbb4.chunk.js.map": "/deploy-settlement/static/js/2.6f64bbb4.chunk.js.map",
+    "index.html": "/deploy-settlement/index.html",
+    "precache-manifest.9a42073ba38b0ed9f0c72adefe39f32d.js": "/deploy-settlement/precache-manifest.9a42073ba38b0ed9f0c72adefe39f32d.js",
+    "service-worker.js": "/deploy-settlement/service-worker.js",
+    "static/css/2.ee0a0194.chunk.css.map": "/deploy-settlement/static/css/2.ee0a0194.chunk.css.map",
+    "static/css/main.fb6531de.chunk.css.map": "/deploy-settlement/static/css/main.fb6531de.chunk.css.map",
+    "static/media/index.scss": "/deploy-settlement/static/media/zw.58e2cbd6.svg",
+    "static/media/1.jpg": "/deploy-settlement/static/media/1.993668ff.jpg",
+    "static/media/4.jpg": "/deploy-settlement/static/media/4.030267c7.jpg",
+    "static/media/5.jpg": "/deploy-settlement/static/media/5.30e46659.jpg",
+    "static/media/6.jpg": "/deploy-settlement/static/media/6.5fdf4fab.jpg",
+    "static/media/7.jpg": "/deploy-settlement/static/media/7.792f1e91.jpg",
+    "static/media/8.jpg": "/deploy-settlement/static/media/8.6fe0071a.jpg",
+    "static/media/app-1.png": "/deploy-settlement/static/media/app-1.cac32bd1.png",
+    "static/media/app-4.png": "/deploy-settlement/static/media/app-4.110ff288.png",
+    "static/media/contact.png": "/deploy-settlement/static/media/contact.e86a0d78.png",
+    "static/media/endless-logo.png": "/deploy-settlement/static/media/endless-logo.ee8631c3.png",
+    "static/media/logo.png": "/deploy-settlement/static/media/logo.643fd042.png",
+    "static/media/style.css": "/deploy-settlement/static/media/waves-shape.ca9c8361.svg",
+    "static/media/screnshoot-1.jpg": "/deploy-settlement/static/media/screnshoot-1.4a49535b.jpg",
+    "static/media/screnshoot-2.jpg": "/deploy-settlement/static/media/screnshoot-2.ece46da7.jpg",
+    "static/media/screnshoot-3.jpg": "/deploy-settlement/static/media/screnshoot-3.a457cc50.jpg"
+  }
+}
